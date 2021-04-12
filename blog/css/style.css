@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .1s ease-in;
+}
+
+body {
+    background: rgb(176, 124, 247);
+    padding-top: 92px;
+    font-family: "Raleway";
+    color: rgb(255, 255, 255);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 90px;
+    margin: 0 0 30px 0;
+}
+
+header p {
+    width: 592px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.col-4 {
+    width: 370px;
+    padding: 0;
+    margin: 0 15px;
+}
+
+.article {
+    position: relative;
+    filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.5));
+}
+
+.publish_date {
+    width: 60px;
+    height: 60px;
+    background: rgba(38, 38, 38, 0.5);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.date {
+    font-weight: bold;
+    font-size: 32px; 
+    line-height: 19px;
+}
+
+.month {
+    font-weight: 900;
+    font-size: 21px;
+    text-transform: uppercase;
+}
+
+.description {
+    position: absolute;
+    bottom: 0px;
+    padding: 50px 0 20px 20px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.9) 100%);
+}
+
+.description a {
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.description a:hover {
+    text-decoration: underline;
+}
+
+.description p {
+    margin-top: 20px;
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.button {
+    text-align: center;
+    margin-top: 54px;
+}
+
+.button a {
+    display: inline-block;
+    width: 200px;
+    height: 55px;
+    padding: 16px 43px;
+    background: rgb(247, 43, 59);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    font-weight: 300;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.button a:hover {
+    background: rgb(204, 0, 17);
+}
+

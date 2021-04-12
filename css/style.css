@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .1s ease-in;
+}
+
+body {
+    background-image: url(../img/background.jpg);
+    padding-top: 15%;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    display: block;
+    width: 300px;
+    height: 150px;
+    margin: 0 50px;
+    padding: 50px;
+    font-family: "Raleway";
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(255, 255, 255); 
+    text-align: center;
+    border-radius: 30px;
+    filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.5));
+}
+
+.link_1 {
+    background: rgb(163, 139, 173);
+}
+
+.link_2 {
+    background: rgb(122, 181, 195);
+}
+
+.link_1:hover {
+    background: rgb(117, 101, 124);
+    transform: scale(1.2);
+}
+
+.link_2:hover {
+    background: rgb(91, 134, 145);
+    transform: scale(1.2);
+}
